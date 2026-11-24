@@ -1,0 +1,37 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+config.json
+!config.example.json
+credentials.json
+*.pem
+*.key
+
+# Data, Databases & Logs
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.dta
+*.xlsx
+*.log
+raw_data/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE & OS Metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
